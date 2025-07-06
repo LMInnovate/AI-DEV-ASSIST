@@ -1,0 +1,5 @@
+Ethical Reflection: Bias in Predictive Analytics
+
+When deploying our predictive model in a company environment, we risk reinforcing existing biases in the data. For example, if the dataset underrepresents certain teams (e.g., smaller or non-technical departments), the model may systematically predict lower priority for their issues. This can lead to unequal resource allocation and decreased employee satisfaction.
+
+Fairness tools like IBM AI Fairness 360 can help by evaluating and mitigating these biases. They provide metrics to detect disparate impact and techniques like reweighting or adversarial debiasing to adjust training data or models. By integrating these tools into our pipeline, we ensure more equitable predictions across teams, supporting fairness and inclusivity in our software development process.
